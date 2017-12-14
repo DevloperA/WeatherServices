@@ -33,4 +33,9 @@ public class WeatherService : IWeatherService
     {
         return sides * sides;
     }
+
+    public double AreaRectangle(double length, double breadth)
+    {
+        return length * breadth;
+    }
 }

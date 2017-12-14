@@ -14,4 +14,7 @@ public interface IWeatherService
 
     [OperationContract]
     double AreaSquare(double sides);
+
+    [OperationContract]
+    double AreaRectangle(double length, double breadth);
 }
