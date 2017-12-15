@@ -50,4 +50,8 @@ public class WeatherService : IWeatherService
     {
         return distance * speed;
     }
+    public string Concat(string firtname, string lastname)
+    {
+        return firtname + " " + lastname;
+    }
 }

@@ -26,4 +26,7 @@ public interface IWeatherService
 
     [OperationContract]
     double GetTime(double distance, double speed);
+
+    [OperationContract]
+    string Concat(string firtname, string lastname);
 }
