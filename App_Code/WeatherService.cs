@@ -38,4 +38,8 @@ public class WeatherService : IWeatherService
     {
         return length * breadth;
     }
+    public double GetSpeed(double distance, double time)
+    {
+        return distance / time;
+    }
 }

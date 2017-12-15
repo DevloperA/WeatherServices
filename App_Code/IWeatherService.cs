@@ -17,4 +17,7 @@ public interface IWeatherService
 
     [OperationContract]
     double AreaRectangle(double length, double breadth);
+
+    [OperationContract]
+    double GetSpeed(double distance, double time);
 }
