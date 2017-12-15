@@ -23,4 +23,7 @@ public interface IWeatherService
 
     [OperationContract]
     double GetDistance(double speed, double time);
+
+    [OperationContract]
+    double GetTime(double distance, double speed);
 }
