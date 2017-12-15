@@ -32,4 +32,7 @@ public interface IWeatherService
 
     [OperationContract]
     int Add(int value1, int value2);
+
+    [OperationContract]
+    int Multiply(int value1, int value2);
 }
