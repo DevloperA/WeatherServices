@@ -29,4 +29,7 @@ public interface IWeatherService
 
     [OperationContract]
     string Concat(string firtname, string lastname);
+
+    [OperationContract]
+    int Add(int value1, int value2);
 }
