@@ -35,4 +35,7 @@ public interface IWeatherService
 
     [OperationContract]
     int Multiply(int value1, int value2);
+
+    [OperationContract]
+    int Divide(int value1, int value2);
 }
