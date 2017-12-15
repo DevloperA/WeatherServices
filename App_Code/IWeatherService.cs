@@ -41,4 +41,7 @@ public interface IWeatherService
 
     [OperationContract]
     int Modulus(int value1, int value2);
+
+    [OperationContract]
+    int Sum(int value);
 }

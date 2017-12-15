@@ -70,4 +70,8 @@ public class WeatherService : IWeatherService
     {
         return value1 % value2;
     }
+    public int Sum(int value)
+    {
+        return value * 2;
+    }
 }
