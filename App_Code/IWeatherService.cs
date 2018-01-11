@@ -43,13 +43,23 @@ public interface IWeatherService
     int Modulus(int value1, int value2);
 
     [OperationContract]
-    int Sum(int value);
+    int sum(int value);
     [OperationContract]
-    int Sum2(int value, int value2);
+    int sum2(int value, int value2);
     [OperationContract]
     int sum3(int balance);
     [OperationContract]
     int sum4(int balance);
     [OperationContract]
     int sum5(int balance);
+    [OperationContract]
+    int sum6(int value);
+    [OperationContract]
+    int Sum7(int value, int value2);
+    [OperationContract]
+    int sum8(int balance);
+    [OperationContract]
+    int sum9(int balance);
+    [OperationContract]
+    int sum10(int balance);
 }

@@ -64,11 +64,11 @@ public class WeatherService : IWeatherService
     {
         return value1 % value2;
     }
-    public int Sum(int value)
+    public int sum(int value)
     {
         return value * 2;
     }
-    public int Sum2(int value,int value2)
+    public int sum2(int value,int value2)
     {
         return value + value2;
     }
@@ -81,6 +81,26 @@ public class WeatherService : IWeatherService
         return balance + balance + balance + balance;
     }
     public int sum5(int balance)
+    {
+        return balance + balance + balance + balance;
+    }
+    public int sum6(int value)
+    {
+        return value * 2;
+    }
+    public int sum7(int value, int value2)
+    {
+        return value + value2;
+    }
+    public int sum8(int balance)
+    {
+        return balance + balance + balance;
+    }
+    public int sum9(int balance)
+    {
+        return balance + balance + balance + balance;
+    }
+    public int sum10(int balance)
     {
         return balance + balance + balance + balance;
     }
