@@ -68,8 +68,12 @@ public class WeatherService : IWeatherService
     {
         return value * 2;
     }
-    public int sum2(int value,int value2)
+    public int Sum2(int value,int value2)
     {
         return value + value2;
+    }
+    public int sum3(int balance)
+    {
+        return balance + balance + balance;
     }
 }

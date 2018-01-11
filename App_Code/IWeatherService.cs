@@ -44,4 +44,8 @@ public interface IWeatherService
 
     [OperationContract]
     int Sum(int value);
+    [OperationContract]
+    int Sum2(int value, int value2);
+    [OperationContract]
+    int sum3(int balance);
 }
