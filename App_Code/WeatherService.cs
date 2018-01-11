@@ -76,4 +76,8 @@ public class WeatherService : IWeatherService
     {
         return balance + balance + balance;
     }
+    public int sum4(int balance)
+    {
+        return balance + balance + balance + balance;
+    }
 }
