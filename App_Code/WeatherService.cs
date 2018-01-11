@@ -80,4 +80,8 @@ public class WeatherService : IWeatherService
     {
         return balance + balance + balance + balance;
     }
+    public int sum5(int balance)
+    {
+        return balance + balance + balance + balance;
+    }
 }
