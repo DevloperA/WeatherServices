@@ -9,4 +9,7 @@ public interface IClassSecond
 {
     [OperationContract]
     int Mul();
+
+    [OperationContract]
+    int Div();
 }

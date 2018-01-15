@@ -13,4 +13,9 @@ public class ClassSecond :IClassSecond
         int a = 20 * 2;
         return a;
     }
+    public int Div()
+    {
+        int a = 20 / 2;
+        return a;
+    }
 }
