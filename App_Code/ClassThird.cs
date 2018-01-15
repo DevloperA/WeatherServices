@@ -12,4 +12,8 @@ public class ClassThird :IClassThird
     {
         return amount - bill;
     }
+    public int TotalBill(int noOfProducts, int price)
+    {
+        return noOfProducts * price;
+    }
 }
