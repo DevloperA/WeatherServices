@@ -11,4 +11,8 @@ public interface IClassThird
     int Balance(int amount, int bill);
     [OperationContract]
     int TotalBill(int noOfProducts, int price);
+    [OperationContract]
+    int Balance();
+    [OperationContract]
+    int TotalBill();
 }
