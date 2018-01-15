@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel.Activation;
 using System.Web;
 
-/// <summary>
-/// Summary description for ClassFirst
-/// </summary>
-public class ClassFirst
+
+[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]// NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "WeatherService" in code, svc and config file together.
+
+public class ClassFirst : IClassFirst
 {
-   public void Sum()
+   public int Sum()
     {
         int a = 20 + 10;
+        return a;
     }
 }
