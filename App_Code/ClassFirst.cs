@@ -14,4 +14,9 @@ public class ClassFirst : IClassFirst
         int a = 20 + 10;
         return a;
     }
+    public int Sub()
+    {
+        int a = 20 - 10;
+        return a;
+    }
 }

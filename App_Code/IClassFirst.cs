@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Web;
 
-/// <summary>
-/// Summary description for IClassFirst
-/// </summary>
-public class IClassFirst
+[ServiceContract]
+public interface IClassFirst
 {
-    public IClassFirst()
-    {
-        //
-        // TODO: Add constructor logic here
-        //
-    }
+    [OperationContract]
+    int Sum();
+    [OperationContract]
+    int Sub();
 }
