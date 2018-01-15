@@ -18,4 +18,10 @@ public class ClassSecond :IClassSecond
         int a = 20 / 2;
         return a;
     }
+
+    public string Concat()
+    {
+        string s = "Firstname" + " " + "Lastname";
+        return s;
+    }
 }

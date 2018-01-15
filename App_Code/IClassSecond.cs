@@ -12,4 +12,6 @@ public interface IClassSecond
 
     [OperationContract]
     int Div();
+    [OperationContract]
+    string Concat();
 }
